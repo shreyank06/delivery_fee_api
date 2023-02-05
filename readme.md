@@ -1,4 +1,4 @@
-cd assignment/api code
+cd /api code
 ```
 python3 -m venv .env
 pip install flask
@@ -11,7 +11,7 @@ python3 delivery_fee_api.py
 
 to test the api, open another terminal
 ```
-cd assignment/test_cases
+cd /test_cases
 . .env/bin/activate 
 python3 -m unittest tests.py
 
