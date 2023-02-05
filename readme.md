@@ -1,21 +1,2 @@
-cd assignment/api code
-```
-python3 -m venv .env
-pip install flask
-
-to start the api,
-
-. .env/bin/activate 
-python3 delivery_fee_api.py
-```
-
-to test the api, open another terminal
-```
-cd assignment/test_cases
-. .env/bin/activate 
-python3 -m unittest tests.py
-
-after the tests have passed, we can make request by the client by this command
-
-    python3 client.py
-```   
+docker build -t docker_for_api .
+docker run -it docker_for_api
